@@ -1,12 +1,13 @@
 package src;
+
 public class Light implements Appliance {
 
     private Integer brightness;
 
     @Override
     public String turnOn() {
-        this.brightness = 3;
-        return "turning on the Light.. Brightness is Level " + this.brightness;
+        this.brightness = 5;
+        return "turning on the Light.. Brightness is changed to Level " + this.brightness;
     }
 
     @Override

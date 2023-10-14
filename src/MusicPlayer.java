@@ -6,7 +6,7 @@ public class MusicPlayer implements Appliance {
     @Override
     public String turnOn() {
         this.volume = 10;
-        return "turning on the Music Player.. Starting volume is " + this.volume;
+        return "turning on the Music Player.. Playing 'You are the One' with volume " + this.volume;
     }
 
     @Override

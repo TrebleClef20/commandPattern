@@ -1,4 +1,5 @@
 package src;
+
 public class Thermostat implements Appliance {
 
     private Integer temp;
@@ -6,7 +7,7 @@ public class Thermostat implements Appliance {
     @Override
     public String turnOn() {
         this.temp = 25;
-        return "turning on the Thermostat.. Temperature is " + this.temp + " degrees celcius";
+        return "turning on the Thermostat.. adjusting temperature to " + this.temp + " degrees celcius";
     }
 
     @Override
