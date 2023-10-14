@@ -1,3 +1,4 @@
+package src;
 public class CentralHub {
 
     private Command command;

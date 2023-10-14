@@ -1,3 +1,4 @@
+package src;
 public class Thermostat implements Appliance {
 
     private Integer temp;

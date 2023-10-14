@@ -1,3 +1,4 @@
+package src;
 public class MusicPlayer implements Appliance {
 
     private Integer volume;

@@ -1,3 +1,4 @@
+package src;
 public class Light implements Appliance {
 
     private Integer brightness;

@@ -1,3 +1,4 @@
+package src;
 public interface Appliance {
     public String turnOn();
     public String turnOff();
